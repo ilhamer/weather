@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <title>Document</title>
+</head>
+
+<body class="background-properties">
+    <div class="card">
+        <div class="time">
+            <h1>time zone
+
+                <h2>time</h2>
+            </h1>
+        </div>
+        <div class="clock">
+            <div class="hour-hand"></div>
+            <div class="minute-hand"></div>
+            <div class="second-hand"></div>
+            <div class="center-circle"></div>
+        </div>
+        <div class="search">
+            <input type="text" placeholder="enter city name" spellcheck="false">
+            <button><img src="./weather-app-img/images/search.png"></button>
+        </div>
+        <p class="checkingName">Please enter a city name</p>
+        <div class="weather">
+            <div class="warning">
+                <h3>text input warning</h3>
+            </div>
+            <img src="./weather-app-img/images/rain.png" class="weather-icon">
+            <h1 class="temp"></h1>
+            <h2 class="city"></h2>
+            <div class="details">
+                <div class="col">
+                    <img src="./weather-app-img/images/humidity.png">
+                    <div>
+                        <p class="humidity"></p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="./weather-app-img/images/wind.png">
+                    <div>
+                        <p class="wind"></p>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="./weaterPos.js"></script>
+</body>
+
+</html>
